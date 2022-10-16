@@ -24,4 +24,11 @@ public enum RodzajSmaku {
         return poziomSlodkosci;
     }
 
+    @Override
+    public String toString() {
+        return "RodzajSmaku{" +
+                "opis='" + opis + '\'' +
+                ", poziomSlodkosci=" + poziomSlodkosci +
+                '}';
+    }
 }

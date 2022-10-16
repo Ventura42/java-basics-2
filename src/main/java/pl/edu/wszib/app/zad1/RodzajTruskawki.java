@@ -33,4 +33,10 @@ public enum RodzajTruskawki {
         return cecha;
     }
 
+    @Override
+    public String toString() {
+        return "RodzajTruskawki{" +
+                "cecha='" + cecha + '\'' +
+                '}';
+    }
 }
