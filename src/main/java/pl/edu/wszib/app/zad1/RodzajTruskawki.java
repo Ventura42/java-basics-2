@@ -21,6 +21,8 @@ public enum RodzajTruskawki {
     POLKA("Najsmaczniejsza"),
     KENT("Dla fanów słodyczy"),
     CHRISTINE("Zaowocuje szybko i obficie"),
+    BRAND_NEW("Jest GMO"),
+    SUPER_NEW("Jest jeszcze lepszy i nowszy")
     ;
 
     private final String cecha;
@@ -35,7 +37,7 @@ public enum RodzajTruskawki {
 
     @Override
     public String toString() {
-        return "RodzajTruskawki{" +
+        return "RodzajTruskawki[" + name() + "]{" +
                 "cecha='" + cecha + '\'' +
                 '}';
     }
