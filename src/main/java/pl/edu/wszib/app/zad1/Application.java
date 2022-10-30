@@ -9,21 +9,5 @@ public class Application {
         koktajlTruskawkowy.pij();
         koktajlTruskawkowy.jedz();
         RodzajTruskawki rodzajTruskawki = RodzajTruskawki.ANANASOWA;
-
-        String opis = switch (rodzajTruskawki) {
-            case ANANASOWA -> {
-                yield "opis";
-            }
-            case KENT -> "opis";
-            case POLKA -> {
-                yield "opis";
-            }
-            case CHRISTINE -> {
-                yield "opis";
-            }
-            case HONEOYE -> {
-                yield "opis";
-            }
-        };
     }
 }

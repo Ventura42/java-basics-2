@@ -20,9 +20,10 @@ public class KoktajlTruskawkowy extends KoktajlSmakowy {
         // która zwraca nowy enum ZrodloSmaku.
         // Metoda ta powinna zostać umieszczona w klasie KoktajlSmakowy
         String message = String.format(
-                "Pije koktajl %s, która cechuje się %s",
+                "Pije koktajl %s, która cechuje się %s, którego źródłem smaku jest %s",
                 smak(),
-                rodzajTruskawki
+                rodzajTruskawki,
+                zrodloSmaku()
         );
 //        System.out.println("Pije koktajl " + smak().opis() + ", która cechuje się " + rodzajTruskawki.cecha());
         System.out.println(message);
